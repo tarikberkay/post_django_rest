@@ -28,7 +28,7 @@ Sanal Ortamı Aktif Etme
 
 Gerekli Paketleri Kurma
 ```bash
-  pip3 install -r requirements.txt  ||  pip install -requirements.txt
+  pip3 install -r requirements.txt  ||  pip install -r requirements.txt
 ```
 
 Gerekli dizine geçme
