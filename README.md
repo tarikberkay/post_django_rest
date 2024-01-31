@@ -41,12 +41,6 @@ Projeyi Çalıştırma
   python3 manage.py runserver || python manage.py runserver
 ```
 
-
-Projeyi Çalıştırma
-```bash
-  python3 manage.py runserver || python manage.py runserver
-```
-
   
 ## API Kullanımı
 
@@ -70,6 +64,8 @@ Tag'leri getirir.
   http://127.0.0.1:8000/posts/authors/
 ```
 Authors'ları getirir.
+
+
 
 
   
