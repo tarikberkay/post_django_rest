@@ -50,7 +50,7 @@ Projeyi Çalıştırma
   http://127.0.0.1:8000/posts/
 ```
 
-<img src="django_rest/images/Posts.png" alt="Posts" width="320" height="180">
+<img src="https://github.com/tarikberkay/post_django_rest/blob/main/images/Posts.png" alt="Posts" width="450" height="450">
 
 Post'ları getirir.
 
@@ -60,7 +60,7 @@ Post'ları getirir.
   http://127.0.0.1:8000/posts/tags/
 ```
 
-<img src="django_rest/images/Tags.png" alt="Tags" width="320" height="180">
+<img src="https://github.com/tarikberkay/post_django_rest/blob/main/images/Tags.png" alt="Tags" width="450" height="450">
 
 Tag'leri getirir.
 
@@ -70,7 +70,7 @@ Tag'leri getirir.
   http://127.0.0.1:8000/posts/authors/
 ```
 
-<img src="django_rest/images/Authors.png" alt="Authors" width="320" height="180">
+<img src="https://github.com/tarikberkay/post_django_rest/blob/main/images/Authors.png" width="450" height="450">
 
 Authors'ları getirir.
 
