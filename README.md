@@ -49,6 +49,9 @@ Projeyi Çalıştırma
 ```http
   http://127.0.0.1:8000/posts/
 ```
+
+<img src="django_rest/images/Posts.png" alt="Posts" width="320" height="180">
+
 Post'ları getirir.
 
 #### Öğeyi getir
@@ -56,6 +59,9 @@ Post'ları getirir.
 ```http
   http://127.0.0.1:8000/posts/tags/
 ```
+
+<img src="django_rest/images/Tags.png" alt="Tags" width="320" height="180">
+
 Tag'leri getirir.
 
 #### Öğeyi getir
@@ -63,6 +69,9 @@ Tag'leri getirir.
 ```http
   http://127.0.0.1:8000/posts/authors/
 ```
+
+<img src="django_rest/images/Authors.png" alt="Authors" width="320" height="180">
+
 Authors'ları getirir.
 
 
