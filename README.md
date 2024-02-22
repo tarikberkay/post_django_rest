@@ -47,7 +47,7 @@ Projeyi Çalıştırma
 #### Tüm öğeleri getir
 
 ```http
-  http://127.0.0.1:8000/posts/
+  http://127.0.0.1:8000/api/
 ```
 
 <img src="https://github.com/tarikberkay/post_django_rest/blob/main/images/Posts.png" alt="Posts" width="450" height="450">
@@ -57,7 +57,7 @@ Post'ları getirir.
 #### Öğeyi getir
 
 ```http
-  http://127.0.0.1:8000/posts/tags/
+  http://127.0.0.1:8000/api/tags/
 ```
 
 <img src="https://github.com/tarikberkay/post_django_rest/blob/main/images/Tags.png" alt="Tags" width="450" height="450">
@@ -67,7 +67,7 @@ Tag'leri getirir.
 #### Öğeyi getir
 
 ```http
-  http://127.0.0.1:8000/posts/authors/
+  http://127.0.0.1:8000/api/authors/
 ```
 
 <img src="https://github.com/tarikberkay/post_django_rest/blob/main/images/Authors.png" width="450" height="450">
@@ -75,6 +75,20 @@ Tag'leri getirir.
 Authors'ları getirir.
 
 
+#### Öğeyi getir
+
+```http
+  http://127.0.0.1:8000/api/docs/
+```
+Swagger ile API'nin belgelenmesi sağlanmıştır.
+
+
+#### Öğeyi getir
+
+```http
+  http://127.0.0.1:8000/api/schema/
+```
+API belgesi indirilebilir.
 
 
   
