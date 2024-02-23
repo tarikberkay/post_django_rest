@@ -13,6 +13,7 @@ class TagSerializer(serializers.Serializer):
         # return Tag.objects.create(name=validated_data.get('name')) tek parametre olsaydı bu şekilde de datayı ekleyebilirdik.
     
 
+
 class AuthorSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField(max_length=100)
@@ -55,3 +56,23 @@ class PostSerializer(serializers.Serializer):
             post.tags.set(tags)
         
         return post
+    
+    
+    def update(self, instance, validated_data):
+        instance.title = validated_data.get('title', instance.title)
+        instance.content = validated_data.get('content', instance.content)
+        instance.is_published = validated_data.get('is_published', instance.is_published)
+        
+        author_id = validated_data.get('author_id')
+        if author_id:
+            author = get_object_or_404(Author, id=author_id)
+            instance.author = author 
+        
+        tag_ids = validated_data.get('tag_ids', [])
+        if tag_ids:
+            instance.tags.clear()
+            tags = Tag.objects.filter(id__in=tag_ids)
+            instance.tags.set(tags)
+            
+        instance.save()
+        return instance
