@@ -23,7 +23,7 @@ Sanal Ortam Oluşturma
 
 Sanal Ortamı Aktif Etme
 ```bash
-  source venv/bin/activate  ||  venv/scripts/bin/activate
+  source venv/bin/activate  ||  venv\Scripts\activate
 ```
 
 Gerekli Paketleri Kurma
